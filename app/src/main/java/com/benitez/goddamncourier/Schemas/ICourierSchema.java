@@ -11,7 +11,6 @@ public interface ICourierSchema
     String COLUMN_USERNAME = "USERNAME";
     String COLUMN_PASSWORD = "PASSWORD";
     String COLUMN_PHONE = "PHONE";
-
     String DELIVERY_TABLE_CREATE =
             "CREATE TABLE IF NOT EXISTS " + COURIER_TABLE
                     + " ("
